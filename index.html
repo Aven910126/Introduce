@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自我介紹</title>
+</head>
+<style>
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+.section1{
+    width: 100vw;
+    height: 100vh;
+}
+.ss{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+.section2{
+    width: 100vw;
+    height: 100vh;
+}
+.s2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(180deg,#24a6af,  #fff,#24a6af);
+    }
+.section3{
+    width: 100vw;
+    height: 100vh;
+}
+.s3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(180deg,#252525,  #fff,#24a6af);
+    }
+.section4{
+    width: 100vw;
+    height: 100vh;
+}
+.s4{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(180deg,#252525,  #fff,#24a6af);
+    }
+.section1 img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.sectioncontent{
+    z-index: 2;
+    position: relative;
+    top: 40%;
+    left: 15%;
+    width: 30%;
+}
+.sectioncontent h1{
+    color: #fff;
+    font-size: 60px;
+    margin-bottom: 5%;
+}
+.sectioncontent p{
+    color: #fff;
+    font-size: 18px;
+    line-height: 150%;
+}
+.sectioncontent .btn{
+    margin: 10px 10px 10px 80%;
+    color: #fff;
+    border: 1px solid #fff;
+    width: 95x;
+    text-align: center;
+    letter-spacing:  5px;
+    border-radius: 5rem;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 20px;
+}
+.sectioncontent .btn:hover{
+    color: #fff;
+    background-color: #333;
+    cursor: pointer;
+}
+.sectionimage{
+    position: relative;
+    width: 520px;
+    height: 520px;
+    left: 55%;
+}
+.sectionimage img{
+    z-index: 5;
+    border-radius: 0.5rem;
+}
+.dark{
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0,0.5);
+}
+.navbar{
+    position: fixed;
+    right: 10px; 
+    top: 30px;
+    z-index: 2;
+
+}
+.navbar ul {
+    position: relative;
+    right: 0;  
+}
+.navbar ul li{
+    display: inline;
+    color: #fff;
+    font-size: 20px;
+    margin: 20px;
+    cursor: pointer;
+    z-index: 99;
+}
+.big{
+    width: 320px;
+    height: 320px;
+    overflow: hidden;
+    margin: auto;
+    padding-top: 50px;
+}
+.big img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.content{
+    width: 600px;
+    margin: auto;
+}
+.content h1{
+font-size: 36px;
+}
+.content p{
+    font-size: 16px;
+    line-height: 200%;
+    margin: 5% 10%;
+    color: #fff;
+    text-align: justify;
+}
+.box{
+    width: 100%;
+    background-color: rgba(0, 0, 0,0.5);   
+    border-radius: 0.5rem;
+    margin-top: 5%;
+    }
+    a{
+        color: #fff;
+    }
+    .tb table{
+        margin: 10% auto;
+        border: #333 medium 1px;
+    }
+    .tb table th{
+        font-size: 30px;
+        border: #333 solid 1px;
+        background-color: #24a6af;
+    }
+    .tb table td{
+        text-align: center;
+        line-height: 200%;
+        font-size: 24px;
+        border: #333 solid 1px;
+        background-color: #c0f9fd;
+    }
+    .imgmap{
+        text-align: center;
+    }
+</style>
+<body>
+    <!--首頁-->
+        <div class="navbar">
+            <ul>
+                <a href="#s1" style="text-decoration: none;"><li>首頁</li></a>
+                <a href="#s2" style="text-decoration: none;"><li>關於我</li></a>
+                <a href="#s3" style="text-decoration: none;"><li>我的麻吉</li></a>
+                <a href="#s4" style="text-decoration: none;"><li>我的學校</li></a>
+                <a href="#s5" style="text-decoration: none;"><li>唐詩</li></a>
+    <div class="section4" id="s4">
+        <div class="s4">
+            <h1 style="color: #fff; margin: auto; width: 240px;margin-top: 5%;font-size: 60px;">我的學校</h1>
+            <div class="imgmap"><img src="地圖.jpg" alt="GG" width="600px" usemap="#GG">
+                <map name="GG">
+                    <area shape="rect" coords="160,180,285,270" href="嚇人.html" >
+                </map>
+            </div>
+            <center><p>猜猜我的學院</p></center>
+        </div>
+    </div>
+            </ul>
+        </div>
+    <div class="section1" id="s1">
+        <div class="ss">
+        <img src="1.jpg" alt="">
+        <div class="sectioncontent">
+            <h1>自我介紹</h1>
+            <p>就讀 雲林科技大學資訊管理系 個性內向神經大條，不是很喜歡說話，最喜歡窩在家裡睡覺，總是覺得要享受當下......</p>
+            <a href="#s2" style="text-decoration: none;"><div class="btn">關於</div></a>
+        </div>
+        <div class="sectionimage">
+            <img src="me.jpg" alt="">
+        </div>
+        <div class="dark"></div>
+        </div>
+    </div>
+    <!--第二頁-->
+    <div class="section2" id="s2">
+        <div class="s2">
+            <div class="big"><img src="me.jpg" alt=""></div>
+           <div class="content">
+               <center><h1 style="margin: 30px 0px 0px 0px;">關於我</h1></center>
+            <div class="box">
+                <center><h2 style="padding-top: 10px;color: #fff;">王廷恩</h1></center><p>就讀
+                <a href="https://www.mis.yuntech.edu.tw/" target="_blank">雲林科技大學資訊管理系</a>
+                個性內向神經大條，不是很喜歡說話，最喜歡窩在家裡睡覺，總是覺得要享受當下，現在不享受什麼時候才能享受，特別想學習程式，希望以後能從事程式相關的工作，很高興上大學後認識到一堆好朋友，雖然很猴但他們有很多我值得學習的事情。
+                </p></div>
+        </div>
+        </div>
+    </div>
+    <div class="section3" id="s3">
+        <div class="s3">
+            <h1 style="color: #fff; margin: auto; width: 240px;margin-top: 5%;font-size: 60px;">我的麻吉</h1>
+            <div class="tb">
+                <table>
+                    <tr>
+                        <th width="200px">姓名</th>
+                        <th width="400px">介紹</th>
+                    </tr>
+                    <tr>
+                        <td>陳奕綸</td>
+                        <td>人很NICE，但是超會唬爛</td>
+                    </tr>
+                    <tr>
+                        <td>陳明堯</td>
+                        <td>也是唬爛大王，超愛跑山</td>
+                    </tr>
+                    <tr>
+                        <td>陳定芃</td>
+                        <td>很愛在半夜RAP給人家聽</td>
+                    </tr>
+                    <tr>
+                        <td>范綱庭</td>
+                        <td>很死豬</td>
+                    </tr>
+                </table>
+            </div>
+            <marquee scrollamount="100" behavior="alternate" style="font-size: 20px;">只有4個人因為我是邊緣人QQ</marquee>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
